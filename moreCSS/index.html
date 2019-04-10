@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- This title gets displayed on the tab -->
+    <head>
+        <title>More CSS Q3 Reflection</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                Advanced Computer Science Reflection
+            </a>
+            <a class="navbar-brand" href="Responses.html">
+                Responses
+            </a>
+            <a class="navbar-brand">
+                Mr. Hernandez
+            </a>
+        </nav>
+        
+        <br>
+
+        <div class="container-fluid">
+            <!-- Info text with link-->
+            <div class="alert alert-info" role="alert">
+                <a href="https://scienceleadership.instructure.com/courses/3171">
+                    Advanced Computer Science on Canvas
+                </a>
+            </div>
+
+
+            <!-- Alert text with different font and size-->
+            <div class="alert alert-danger" role="alert">
+                <!-- (MISSING?!?!) will be italicized-->
+                HI! Your email address <i>(MISSING?!?!)</i> will be recorded when you submit this form.
+                <!-- Line break -->
+                <br>
+                Not you? Switch account
+                <!-- Bold text -->
+                <b>* Required</b>
+            </div>
+
+            <!-- Video with 4:3 aspect ratio-->
+            <div class="embed-responsive embed-responsive-4by3">
+                <video autoplay loop class="embed-responsive-item">
+                    <source src="../assets/videos/AdvCS.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <form>
+                <!-- Container is a table -->
+                <div class="container">
+                    <!-- Row of images -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="../assets/images/greenie.png">
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="../assets/images/mario.png">
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <img class="img-fluid" src="../assets/images/spongebob.png">
+                        </div>
+                    </div>
+
+                    <!-- Row of questions and text boxes -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="knowledge">
+                                    How has your knowledge and understanding of computer systems changed during this class? *
+                                </label>
+                                <textarea class="form-control" id="knowledge" rows="2">
+                                </textarea> 
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="skills">
+                                    How have your programming skills changed during this class? *
+                                </label>
+                                <textarea class="form-control" id="skills" rows="2">
+                                </textarea> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="form-group ">
+                    <label for="networked">How are networked programs different than the programs you've written before? How do you manage the complexity introduced by this difference? *</label>
+                    <textarea class="form-control" id="networked" rows="2"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="accomplishment">Describe an accomplishment in this class that you are proud of. *</label>
+                    <textarea class="form-control" id="accomplishment" rows="2"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="improve">Identify a skill or understanding that you would like to improve. *</label>
+                    <textarea class="form-control" id="improve" rows="2"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="collaborate">Describe your ability to collaborate on program development and how that has changed during this class. *</label>
+                    <textarea class="form-control" id="collaborate" rows="2"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback">Feedback for Mr. Hernandez: *</label>
+                    <textarea class="form-control" id="feedback" rows="2"></textarea>
+                </div>
+
+                <button type="button" class="btn btn-primary btn-lg btn-block" submit onclick="alert('Where do these answers get stored?')">
+                    Submit
+                </button>
+                <br>
+
+            </form>
+
+        </div>
+    </body>
+</html>
